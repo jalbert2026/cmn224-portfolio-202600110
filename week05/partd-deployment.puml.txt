@@ -1,0 +1,72 @@
+@startuml
+
+node "Kina Ridge School Office Laptop" {
+
+    node "Fee Tracking Application" {
+        [User Interface]
+        [Application Logic]
+        [Data Access]
+    }
+
+    database "Local SQLite Database" as DB {
+        [Student Records]
+        [Fee Records]
+        [Payment Records]
+        [User Records]
+        [Audit Records]
+    }
+
+    folder "Local Backup" as Backup {
+        [Daily Backup]
+    }
+
+    [User Interface] --> [Application Logic]
+    [Application Logic] --> [Data Access]
+    [Data Access] --> DB
+
+    [Daily Backup] --> Backup : Daily
+
+    note right of DB
+        Stores:
+        Student information
+        Fee information
+        Payment transactions
+        User accounts
+        Audit records
+
+        Data remains available
+        when Internet is unavailable.
+    end note
+
+    note bottom
+        Power loss:
+        Successfully saved transactions
+        remain in the local database.
+
+        Users restart the application
+        after power is restored.
+    end note
+}
+
+node "School Printer" {
+    [Receipt Printing]
+}
+
+cloud "Internet / Wi-Fi" as Internet
+
+[Application Logic] --> [Receipt Printing] : USB / Local connection
+
+"Kina Ridge School Office Laptop" .. Internet : Optional connection
+
+note right of Internet
+    Internet is not required for
+    essential fee recording.
+
+    If connection is DOWN:
+    Payment entry continues locally
+    Balances remain available
+    Receipts can still be printed
+    Data remains on the laptop
+end note
+
+@enduml

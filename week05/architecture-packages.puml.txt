@@ -1,0 +1,34 @@
+ @startuml
+node "Kina Ridge School Office Laptop" {
+    node "Fee Tracking Application" {
+        [User Interface]
+        [Application Logic]
+        [Data Access]
+    }
+
+    database "Local SQLite Database" {
+        [Student & Fee Records]
+        [Payment & Audit Records]
+    }
+
+    folder "Local Backup Folder" {
+        [Daily Backup System]
+    }
+}
+
+node "School Office Printer" {
+    [Receipt Printer]
+}
+
+cloud "External Internet / Wi-Fi" as internet {
+    note right: Connection is unreliable\n(System runs offline-first)
+}
+
+' Visual Layout & Physical Connections
+[Data Access] --> [Student & Fee Records]
+[Data Access] --> [Payment & Audit Records]
+[Payment & Audit Records] --> [Daily Backup System] : Daily Export
+
+[User Interface] --> [Receipt Printer] : USB / Local Wi-Fi
+"Fee Tracking Application" -[hidden]- internet : Intermittent Sync Only
+@enduml
