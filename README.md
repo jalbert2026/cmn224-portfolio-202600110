@@ -7,5 +7,5 @@
 This repository stores all my software engineering labs and coursework.
 
 
-#### AI Disclosure - Week9_Lab6_Behavioural Diagrams & Codes
+#### AI Disclosure - Week9_Lab6_Behavioural Diagrams
 An AI assistant was utilized during the drafting phase of this assignment to refine, format, and enhance the clarity of the UML Activity Diagram layout. All diagram logic, requirements alignment, and validation checks were manually verified and completed individually.
