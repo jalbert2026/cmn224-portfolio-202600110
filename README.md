@@ -1,3 +1,6 @@
+**Western Pacific University**
+
+**Department of Emerging and Computing Technology - 2026**
 **Name:** Justin Albert
 
 **Student ID:** 00110
