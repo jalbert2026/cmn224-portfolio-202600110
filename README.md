@@ -2,11 +2,12 @@
 
 **Department of Emerging and Computing Technology - 2026**
 
+
+**Unit: CMN224 Software Engineering**
+
 **Name:** Justin Albert
 
 **Student ID:** 00110
-
-**Unit:** CMN224 Software Engineering
 
 This repository contains my portfolio of laboratory tasks, practical coursework, and software engineering artifacts for **CMN224 Software Engineering.** It serves as a continuous record of my technical progress, implementation skills, and architectural design documentation throughout semester 2, 2026.
 
