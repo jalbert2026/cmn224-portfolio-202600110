@@ -9,7 +9,7 @@
 
 **Student ID:** 00110
 
-**Brief about my Repository.**
+**Brief note about my Repository**
 
 This repository contains my portfolio of laboratory tasks, practical coursework, and software engineering artifacts for **CMN224 Software Engineering.** It serves as a continuous record of my technical progress, implementation skills, and architectural design documentation throughout Semester 2, 2026.
 
