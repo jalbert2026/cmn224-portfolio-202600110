@@ -1,13 +1,14 @@
 **Western Pacific University**
 
 **Department of Emerging and Computing Technology - 2026**
+
 **Name:** Justin Albert
 
 **Student ID:** 00110
 
 **Unit:** CMN224 Software Engineering
 
-This repository stores all my software engineering labs and coursework.
+This repository contains my portfolio of laboratory tasks, practical coursework, and software engineering artifacts for **CMN224 Software Engineering.** It serves as a continuous record of my technical progress, implementation skills, and architectural design documentation throughout the semester 2, 2026.
 
 
 #### AI Disclosure - Week9_Lab6_Behavioural Diagrams
