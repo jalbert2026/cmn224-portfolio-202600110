@@ -1,6 +1,8 @@
 **Western Pacific University**
 
-**Department of Emerging and Computing Technology - 2026**
+**Department of Emerging and Computing Technology**
+
+**Semester 2, year 2026**
 
 
 **Unit: CMN224 Software Engineering**
