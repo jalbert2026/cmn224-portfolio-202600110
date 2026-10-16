@@ -22,5 +22,8 @@ An AI assistant was utilized during the drafting phase of this assignment to ref
 
 #### How to Build and Run Tests
 To build the project and execute the unit tests, open your terminal, navigate to the test directory, and run the dotnet test command:
-cd week04/FeeSystem.Tests
-dotnet test
+
+<pre><code>cd week04/FeeSystem.Tests
+dotnet test</code></pre>
+
+
